@@ -1,5 +1,6 @@
 export default {
   date: '2016-11-20',
+  theme: 'subchroma, events, domains',
   agenda: `
 - Talk about subchroma: how did it go, how did it work, what do we think?
 - Talk about contracts **remember to add a link here to the contracts I usually use**

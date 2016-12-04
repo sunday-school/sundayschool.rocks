@@ -1,5 +1,6 @@
 export default {
   date: '2016-10-23',
+  theme: "threejs, reading other people's code",
   agenda: `
 - alp demos twitter stuff
 - maurice demos 3d stuff

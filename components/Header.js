@@ -1,9 +1,9 @@
 import React from 'react'
 import Nav from './Nav'
 
-const Header = ({title}) =>
+const Header = ({children}) =>
   <header>
-    <h1>{title}</h1>
+    <h1>{children}</h1>
     <Nav />
   </header>
 

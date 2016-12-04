@@ -1,5 +1,6 @@
 export default {
   date: '2016-11-06',
+  theme: 'OOP, react',
   agenda: `
 - talk about oop [see this stackoverflow](http://stackoverflow.com/questions/9582341/adding-new-properties-to-constructor-function-without-prototype#9582407)
   - you can add functions to all strings by setting them on String.prototype

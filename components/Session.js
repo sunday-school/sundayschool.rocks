@@ -1,13 +1,15 @@
 import React from 'react'
 
-import Page from './Page'
 import MD from './MD'
+import Header from './Header'
+import SessionTitle from './SessionTitle'
 
-const Session = ({date, agenda}) =>
-  <Page title={`Sunday School ${date}`}>
+const Session = (session) =>
+  <div>
+    <Header><SessionTitle {...session} /></Header>
     <h2>Agenda</h2>
-    {MD(agenda)}
-  </Page>
+    {MD(session.agenda)}
+  </div>
 
 export default Session
 

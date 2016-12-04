@@ -3,25 +3,23 @@ import React from 'react'
 import Link from 'next/link'
 
 import ReversibleList from './ReversibleList'
-import Page from './Page'
 
-const listItem = date =>
-  <li key={date}>
-    <Link href={`sessions?date=${date}`}><a>{date}</a></Link>
-  </li>
+const SessionLink = ({date, theme}) =>
+  <Link href={`sessions?date=${date}`}>
+    <a><small>{date}:</small> <em>{theme}</em></a>
+  </Link>
 
-const listSessions = R.pipe(
+const SessionList = ({sessions}) => R.pipe(
   R.keys,
   R.invoker(0, 'sort'),
-  R.map(listItem)
-)
-
-const SessionList = ({sessions}) =>
-  <Page title='All Sessions'>
-    <ReversibleList>
-      {listSessions(sessions)}
-    </ReversibleList>
-  </Page>
+  R.map(key => sessions[key]),
+  R.map(session => (
+    <li key={session.date}>
+      <SessionLink {...session} />
+    </li>
+  )),
+  sessions => <ReversibleList>{sessions}</ReversibleList>
+)(sessions)
 
 export default SessionList
 
