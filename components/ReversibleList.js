@@ -7,12 +7,15 @@ const maybeReverse = down => down
   : R.identity
 
 const Switcher = ({down, toggle}) =>
-  <span onClick={toggle}>
+  <span>
     {
       down
         ? '▼'
         : '▲'
     }
+    <button onClick={toggle}>
+      reverse order
+    </button>
   </span>
 
 const ReversibleList = ({children, state, setState}) => {
