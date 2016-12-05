@@ -17,7 +17,7 @@ const Signup = () =>
       <label htmlFor='tlemail'>Enter your email address and I'll email you when we meet up.</label>
     </p>
     <p>
-      <input type='text' name='email' id='tlemail' />
+      <input type='text' className='w-100' name='email' id='tlemail' />
     </p>
     <input type='hidden' value='1' name='embed' />
     <input type='submit' value='Subscribe' />
