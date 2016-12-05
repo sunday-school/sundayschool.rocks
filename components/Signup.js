@@ -7,22 +7,22 @@ const openWindow = () => {
 
 const Signup = () =>
   <form
-    className='ba bw2 ph2 mw5 mv3'
+    className='pa2 mw5 mv2 f6 lh-copy bg-light-pink purple'
     action='https://tinyletter.com/sundayschool'
     method='post'
     target='popupwindow'
     onSubmit={openWindow}
   >
     <p>
-      <label htmlFor='tlemail'>Enter your email address and I'll email you when we meet up.</label>
+      <label htmlFor='tlemail'>Enter your email address and I'll let you know when we meet up.</label>
     </p>
     <p>
       <input type='text' className='w-100' name='email' id='tlemail' />
     </p>
     <input type='hidden' value='1' name='embed' />
-    <input type='submit' value='Subscribe' />
+    <input type='submit' className='w-100' value='Subscribe' />
     <p>
-      <a href='https://tinyletter.com' target='_blank'>
+      <a className='dark-blue' href='https://tinyletter.com' target='_blank'>
         powered by TinyLetter
       </a>
     </p>
