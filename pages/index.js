@@ -22,7 +22,13 @@ Floor 2: The Uprising Creative
 
 export default () =>
   <Page title='Sunday School'>
-    {body}
-    <Signup />
+    <div className='cf'>
+      <div className='fl w-100 w-60-ns'>
+        {body}
+      </div>
+      <div className='fl w-100 w-40-ns pl5'>
+        <Signup />
+      </div>
+    </div>
     <Map location={'The Uprising Creative, Chicago IL'} />
   </Page>
