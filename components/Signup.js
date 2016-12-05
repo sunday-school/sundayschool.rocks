@@ -1,5 +1,4 @@
 import React from 'react'
-import style from 'next/css'
 
 const openWindow = () => {
   window.open('https://tinyletter.com/sundayschool', 'popupwindow', 'scrollbars=yes,width=800,height=600')
