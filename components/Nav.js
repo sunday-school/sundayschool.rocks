@@ -8,16 +8,15 @@ const pages = [
 
 const Nav = () =>
   <nav>
-    <ol className='list pl0'>
+    <ol className='list pa0 ma0 tr'>
       {
         pages.map(([url, title]) => (
           <li key={title}>
-            <Link href={url}><a>{title}</a></Link>
+            <Link href={url}><a className='link'>{title}</a></Link>
           </li>
         ))
       }
     </ol>
-    <hr />
   </nav>
 
 export default Nav
