@@ -12,8 +12,8 @@ const Church = () =>
       <a>
         <svg
           className={`w3 ${styles}`}
-          stroke='purple'
-          fill='purple'
+          stroke='#D5008F'
+          fill='#D5008F'
           xmlns='http://www.w3.org/2000/svg'
           xmlnsXlink='http://www.w3.org/1999/xlink'
           version='1.1'
