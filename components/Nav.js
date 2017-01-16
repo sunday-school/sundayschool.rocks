@@ -3,7 +3,8 @@ import Link from 'next/link'
 
 const pages = [
   ['/', 'Home'],
-  ['/sessions', 'Sessions']
+  ['/sessions', 'Sessions'],
+  ['/documents', 'Documents']
 ]
 
 const Nav = () =>
