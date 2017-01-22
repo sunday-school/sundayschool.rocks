@@ -1,5 +1,6 @@
 /* eslint-disable camelcase */
 
+import session_2017_01_22 from './2017_01_22.js'
 import session_2017_01_15 from './2017_01_15.js'
 import session_2017_01_08 from './2017_01_08.js'
 import session_2016_12_18 from './2016_12_18.js'
@@ -21,6 +22,7 @@ export default byDate([
   session_2016_12_04,
   session_2016_12_18,
   session_2017_01_08,
-  session_2017_01_15
+  session_2017_01_15,
+  session_2017_01_22
 ])
 
