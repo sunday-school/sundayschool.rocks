@@ -16,7 +16,8 @@ Everything that starts starts like this ^^.
 ## AGENCIES IN CHICAGO
 
 - http://agencypimp.com/
-  - https://thecreativeham.com/agencies/chicago/
+- https://thecreativeham.com/agencies/chicago/
+
 ## IMPOSTOR SYNDROME
 
 - https://monks.co/uprising/
@@ -40,6 +41,10 @@ Everything that starts starts like this ^^.
 - https://www.npmjs.com/package/twitter
 - https://expressjs.com/en/starter/hello-world.html
 - https://github.com/MylesBorins/node-osc
+
+## MACHINE LEARNING
+
+- https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/#0
 
 `}
 
